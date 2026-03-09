@@ -1,13 +1,13 @@
 @import "tailwindcss";
-@plugin 'D:\Front End\React Js\Projects\social-app\hero.js';
+@plugin '../hero.js';
 @source '../node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}';
 @custom-variant dark (&:is(.dark *));
 
 /* my color pallete */
 /* primary color is #673AB7 */
 
-
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   min-height: 100%;
