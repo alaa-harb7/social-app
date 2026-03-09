@@ -4,7 +4,7 @@ import * as zod from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { FaFacebookF, FaGoogle, FaTwitter } from "react-icons/fa";
 
-import image from "../../assets/vector.png";
+import image from "../../assets/Vector.png";
 import axios from "axios";
 import { PulseLoader } from "react-spinners";
 import { useNavigate } from "react-router-dom";
