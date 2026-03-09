@@ -14,7 +14,7 @@ import {
   Image,
 } from "@heroui/react";
 import { FaHeart, FaComment, FaShareAlt, FaShare } from "react-icons/fa";
-import Cardheader from "../CardHeader/CardHeader";
+import Cardheader from "../CardHeader/Cardheader";
 import { Link } from "react-router-dom";
 import CommentComponent from "../CommentComponent/CommentComponet";
 import Comment from "../Comment/Comment";
